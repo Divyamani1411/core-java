@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="invocationCount Suite">
+<parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <test name="invocationCount Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.CreateLead"/>
+    </classes>
+  </test> <!-- invocationCount Test -->
+</suite> <!-- invocationCount Suite -->

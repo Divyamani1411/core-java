@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="dependsOnMethods Suite">
+<parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <test thread-count="5" name="dependsOnMethods Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="week7.day1.DependsOnMethods"/>
+    </classes>
+  </test> <!-- dependsOnMethods Test -->
+</suite> <!-- dependsOnMethods Suite -->
